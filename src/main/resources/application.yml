@@ -1,0 +1,12 @@
+spring:
+ application:
+    name: ecom-rest-api
+datasource:
+  url: jdbc:mysql://localhost:3306/ecommercedb
+  username: root
+  password: ThePyramids3
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
